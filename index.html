@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Now</h1>
+            <div class="search-box">
+                <input type="text" id="city" placeholder="Enter a city name or use current location">
+                <button onclick="fetchWeather()">Get Weather</button>
+                <button onclick="getCurrentLocation()">Use Current Location</button>
+            </div>
+        </header>
+        <main id="weather-cards">
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
